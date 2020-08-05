@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{Akzw:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),l=t.n(a),r=t("Wbzz"),u=t("Bl7J"),c=t("vrFN");n.default=function(){return l.a.createElement(u.a,null,l.a.createElement(c.a,{title:"Tikkun"}),l.a.createElement("h1",null,"Tikkun"),l.a.createElement("p",null),l.a.createElement(r.Link,{to:"/"},"home"))}}}]);
-//# sourceMappingURL=component---src-pages-tikkun-js-9b00cf75012a9747b4eb.js.map
