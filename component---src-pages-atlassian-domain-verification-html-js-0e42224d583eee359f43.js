@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{iKhv:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),i=a.n(t),o=a("Bl7J"),l=a("vrFN");n.default=function(){return i.a.createElement(o.a,null,i.a.createElement(l.a,{title:"Domain Verification Token"}),i.a.createElement("h1",null,"Domain Verification Token"),i.a.createElement("p",null,"sWNeaMVpCnW9UigZ/NXHld0NwRagnapkNtdfoa9mVN2Pa06oLoi1MdjCfPY64gj3"))}}}]);
+//# sourceMappingURL=component---src-pages-atlassian-domain-verification-html-js-0e42224d583eee359f43.js.map
