@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{xoi0:function(e,t,n){"use strict";n.r(t);var a=n("q1tI"),r=n.n(a),l=n("Bl7J"),u=n("vrFN");t.default=function(){return r.a.createElement(l.a,null,r.a.createElement(u.a,{title:"Siddur Support"}),r.a.createElement("h1",null,"Siddur Support"),r.a.createElement("p",null))}}}]);
-//# sourceMappingURL=component---src-pages-siddur-support-js-67c8a6d3a16091fd2e85.js.map
