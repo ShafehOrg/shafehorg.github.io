@@ -5,6 +5,6 @@ const dir = "public";
 const repoDetails = { branch };
 const callback = () => console.log('Deploy Complete!');
 
-const options = [dir, callback];
+const options = [dir, repoDetails, callback];
 
 ghpages.publish( ...options )
