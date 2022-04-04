@@ -1,0 +1,162 @@
+html {
+  font-family: $font-stack;
+  color: $primary-color;
+}
+
+header {
+  background: $header-bg;
+  box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+ .container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .siteTitle {
+      font-size: 16px;
+      text-align: center;
+      margin: 0;
+      padding: 15px;
+      a {
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        color: $header-fg;
+        font-weight: bold;
+        letter-spacing: 5px;
+        &:hover {
+          background: $header-fg;
+          color: white;
+          border-color: $header-fg;
+        }
+      }
+    }
+
+    nav {
+      text-align: center;
+      padding: 15px;
+      a {
+        display: inline-block;
+        font-size: 16px;
+        text-decoration: none;
+        margin: 0 20px;
+        &:hover,
+        &:focus {
+          color: #fff !important;
+        }
+        &:visited {
+          color: $header-fg;
+        }
+        &.active {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  // border-top: 1px solid $header-bg;
+  margin-top: 40px;
+  box-shadow: rgba(0, 0, 0, 0.192) 0px -8px 06px -5px;
+
+  .copy {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 13px;
+  }
+}
+
+
+main {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 20px;
+  position: relative;
+
+  .main-bill {
+    padding: 20px;
+    h1 {
+
+    }
+    p {
+
+    }
+  }
+
+  .app-list {
+    display: flex;
+    .app-list-card {
+      flex: 1 1 0px;
+      margin: 5px;
+      padding: 5px;
+      border-radius: 6px;
+      box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2),0 6px 10px 0 rgba(0,0,0,0.19) ;
+      img {
+        max-width:100%;
+        max-height: inherit;
+        border-radius: 3px;
+      }
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        * {
+          padding: 5px;
+          margin: 5px;
+        }
+        a {
+          text-decoration: none;
+          padding: 5px;
+          margin: 5px;
+          border-radius: 6px;
+          width: fit-content;
+          border: 2px solid $header-bg;
+        }
+      }
+    }
+  }
+
+  h2 {
+    margin-bottom: 0;
+  
+    a {
+      text-decoration: none;
+      color: black;
+      &:hover,
+      &:focus {
+        color: #330000;
+      }
+    }
+  }
+  .date {
+    font-size: 16px;
+  }
+  .app-links {
+    a {
+      img {
+        width: 135px;
+      }
+    }
+  }
+}
+
+.siddur-app-store {
+  display:inline-block;
+  overflow:hidden;
+  background:url(https://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.svg) no-repeat;
+  width:165px;
+  height:40px;
+}
+
+.tikkun-korim-online-cta {
+  background: #44ff44;
+  text-decoration: none;
+  color: black;
+  padding: 19px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: fit-content;
+  font-size: 22px;
+}

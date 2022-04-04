@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{qTMf:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),r=a("Bl7J"),c=a("vrFN");t.default=function(){return l.a.createElement(r.a,null,l.a.createElement(c.a,{title:"Siddur Privacy"}),l.a.createElement("h1",null,"Privacy"),l.a.createElement("p",null,"No data is collected from the siddur app."))}}}]);
-//# sourceMappingURL=component---src-pages-privacy-js-0d133851571f7b6db4e1.js.map
