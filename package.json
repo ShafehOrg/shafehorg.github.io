@@ -4,7 +4,7 @@
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.1",
   "dependencies": {
-    "gatsby": "^2.25.3",
+    "gatsby": "^5.15.0",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.32",
